@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 7,
+    "passes": 0,
+    "pending": 0,
+    "failures": 7,
+    "start": "2022-09-13T16:55:39.633Z",
+    "end": "2022-09-13T16:55:39.900Z",
+    "duration": 267
+  },
+  "tests": [
+    {
+      "title": "returns all drivers that match the passed in name",
+      "fullTitle": "index.js findMatching() returns all drivers that match the passed in name",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Bobby is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:8:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Bobby is not a function"
+      }
+    },
+    {
+      "title": "returns matching drivers if case does not match but letters do",
+      "fullTitle": "index.js findMatching() returns matching drivers if case does not match but letters do",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Bobby is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Bobby is not a function"
+      }
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js findMatching() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Susan is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:21:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Susan is not a function"
+      }
+    },
+    {
+      "title": "returns a driver if beginning provided letters match",
+      "fullTitle": "index.js fuzzyMatch() returns a driver if beginning provided letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:35:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:43:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "accesses the data structure to check if name matches",
+      "fullTitle": "index.js matchName() accesses the data structure to check if name matches",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: matchName is not defined\n    at Context.<anonymous> (test/indexTest.js:67:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "matchName is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns all drivers that match the passed in name",
+      "fullTitle": "index.js findMatching() returns all drivers that match the passed in name",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Bobby is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:8:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Bobby is not a function"
+      }
+    },
+    {
+      "title": "returns matching drivers if case does not match but letters do",
+      "fullTitle": "index.js findMatching() returns matching drivers if case does not match but letters do",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Bobby is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Bobby is not a function"
+      }
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js findMatching() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Susan is not a function\n    at Array.filter (<anonymous>)\n    at findMatching (about:blank:39:31)\n    at Context.<anonymous> (test/indexTest.js:21:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Susan is not a function"
+      }
+    },
+    {
+      "title": "returns a driver if beginning provided letters match",
+      "fullTitle": "index.js fuzzyMatch() returns a driver if beginning provided letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:35:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: fuzzyMatch is not defined\n    at Context.<anonymous> (test/indexTest.js:43:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "fuzzyMatch is not defined"
+      }
+    },
+    {
+      "title": "accesses the data structure to check if name matches",
+      "fullTitle": "index.js matchName() accesses the data structure to check if name matches",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: matchName is not defined\n    at Context.<anonymous> (test/indexTest.js:67:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "matchName is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
